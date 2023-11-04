@@ -2,7 +2,8 @@
 <h1 align="center">ChilloutVR Modding Group Dev Wiki</h1>
   <p align="center">
     Welcome to the ChilloutVR Modding Group Dev Wiki!
-    <a href="https://discord.gg/dndGPM3bxu"><h3>Join the Discord</h3></a>
+    <br/>
+    <a href="https://discord.gg/dndGPM3bxu">Join the Discord</a>
   </p>
 </div>
 
