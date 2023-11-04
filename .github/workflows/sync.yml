@@ -1,0 +1,20 @@
+name: Wiki Sync
+
+on:
+  push
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout ModdingWiki Sources
+        uses: actions/checkout@v3
+      - name: Push to wiki
+        uses: ddakebono/push-latest-changes-action@cvrmg
+        with:
+          github-token: ${{ secrets.PAT }}
+          repository: 'ModdingWiki.wiki'
+          user_email: cvrmg@wiki
+          user_name: CVRMG
+          branch: master
+          sourcedir: 'Wiki'
