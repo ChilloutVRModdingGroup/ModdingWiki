@@ -20,3 +20,11 @@ You'll find all these references under the directories listed below
     - 0Harmony.dll - HarmonyX, this it used to patch and fiddle with C# functions, both Unity side and CVR side
     - MelonLoader.dll - MelonLoader dependency, this is needed for your mod to work with ML at all
 
+### Useful Links
+
+- [MelonLoader QuickStart](https://melonwiki.xyz/#/modders/quickstart) - Useful to understand the components available
+  to MelonLoader and the structure you should follow. Also look at the other pages in this wiki!
+- [Harmony Basics](https://harmony.pardeike.net/articles/basics.html) - Useful if you want to learn how to patch
+  methods, which allows to execute your code before/after a method runs. Also look at the other pages in this url!
+- [Harmony X](https://github.com/BepInEx/HarmonyX/wiki/Difference-between-Harmony-and-HarmonyX) - MelonLoader uses
+  HarmonyX which is similar to Harmony with some caveats (this link has the differences)
